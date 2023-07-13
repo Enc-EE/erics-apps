@@ -1,15 +1,22 @@
-import { Link } from "@mui/material";
+import { Link, Stack } from "@mui/material";
 import "./App.css";
 
 function App() {
-  const urls = ["https://flyyy.erics-apps.de/"];
+  const urls = [
+    "https://flyyy.erics-apps.de/",
+    "https://spirit.erics-apps.de/",
+  ];
 
   return (
     <>
       <h1>Hi :)</h1>
-      {urls.map((x) => (
-        <Link href={x}>{x}</Link>
-      ))}
+      <Stack>
+        {urls.map((x, i) => (
+          <Link key={i} href={x}>
+            {x}
+          </Link>
+        ))}
+      </Stack>
     </>
   );
 }

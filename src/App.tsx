@@ -5,6 +5,7 @@ function App() {
   const urls = [
     "https://flyyy.erics-apps.de/",
     "https://spirit.erics-apps.de/",
+    "https://soralvi.erics-apps.de/",
   ];
 
   return (

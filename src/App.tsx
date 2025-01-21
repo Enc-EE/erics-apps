@@ -7,6 +7,7 @@ function App() {
     "https://spirit.erics-apps.de/",
     "https://soralvi.erics-apps.de/",
     "https://timer.erics-apps.de/",
+    "https://boss-i-ve-added-a-button.erics-apps.de/",
   ];
 
   return (
